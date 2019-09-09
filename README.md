@@ -7,7 +7,7 @@ node.js을 활용하여 API 서버를 개발하기 위해서 이 프로젝트를
 API 서버에 관한 기본 요건은 다음과 같습니다.
 
 * 자바스크립트 표준 규칙에 따른 구현 (참고: https://standardjs.com/rules-kokr.html)
-* 개발 단계에 따른 Development, Staging, Production에 따른 실행환경을 지원
+* Development, Staging, Production 개발 단계에 따른 실행환경을 지원
 * 테스트 주도 개발 (Test Driven Development) 방법론에 따른 테스트 자동화를 지원
 
 ## 주요 기능
