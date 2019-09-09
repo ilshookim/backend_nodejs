@@ -118,7 +118,7 @@ JavaScript 개발자는 Node.js 출현으로 이제 Front-end부터 Back-end까�
 * 단계별로 서로 다른 설정 파일을 참고하도록 분리했습니다.
 * Test-Driven, Development 단계에서는 sqlite3을 DB로 사용하고 Staging, Production 단계에서는 MariaDB를 사용하도록 분리했으며, Test-Driven, Development, Staging단계에서는 DB를 사용할 때 debug 수준의 로그가 남기도록 하였습니다.
 * 맥OS(모하비)에서 개발한 소스가 윈도우(윈도우10프로), 리눅스(CENTOS7)에서 실행하는데 문제가 없도록 지원했습니다.
-* Node.js 성능을 최적화하기 위한 아티클을 학습하였고 특히 비동기 콜백에서 async/await 용법에 문제가 없는 동료에 의한 코드 리뷰를 하였습니다.
+* Node.js 성능을 최적화하기 위한 아티클을 학습하였고 특히 비동기 콜백에서 async/await 용법에 문제가 없도록 Jay Kwon님과 동료에 의한 코드 리뷰를 하였습니다. 이에 고맙습니다.
 
 # 참고 문헌과 출처 (2019년 9월 10일 작성)
 
