@@ -2,6 +2,67 @@
 
 node.js을 활용하여 API 서버를 개발하기 위해서 이 프로젝트를 참고할 수 있습니다. 이 프로젝트는 백엔드 API 서버에 실제로 활용할 목적으로 개발하였으며, 백엔드 서비스를 위한 기초적인 가이드를 제시하기 위한 것입니다.
 
+# 개발 환경
+
+* Visual Studio Code, VSCode Extension: SQLite, StandardJS
+```
+Version: 1.38.0
+Commit: 3db7e09f3b61f915d03bbfa58e258d6eee843f35
+Date: 2019-09-03T21:47:00.464Z
+Electron: 4.2.10
+Chrome: 69.0.3497.128
+Node.js: 10.11.0
+V8: 6.9.427.31-electron.0
+OS: Darwin x64 18.7.0
+```
+* Node.js: 10.16.3 LTS
+* Node Modules (dependencies)
+```
+app-root-path: ^2.2.1
+body-parser: ^1.19.0
+config: ^3.2.2
+cross-env: ^5.2.1
+express: ^4.17.1
+express-ws: ^4.0.0
+knex: ^0.19.3
+morgan: ^1.9.1
+mysql: ^2.17.1
+poll: ^1.0.1
+serve-static: ^1.14.1
+sqlite3: ^4.1.10
+winston: ^3.2.1
+```
+* Node Modules (devDependencies)
+```
+mocha: ^6.2.0
+should: ^13.2.3
+standard: ^14.1.0
+supertest: ^4.0.2
+```
+* .vscode/launch.json
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/bin/www.js",
+            "console": "integratedTerminal",
+            "env": {
+                "NODE_ENV": "staging"
+              }
+        }
+    ]
+}
+```
+
+# 실행 방법
+
+* EXPLORER/NPM SCRIPTS 화면에서 test-driven, development, staging, production에 마우스를 올리고 실행 버튼을 클릭하세요
+![npm_scripts](./npm_scripts.png)
+
 # 기본 요건
 
 API 서버에 관한 기본 요건은 다음과 같습니다.
