@@ -1,0 +1,39 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "API server (REST, WS)",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development node ./bin/www.js",
+    "staging": "cross-env NODE_ENV=staging node ./bin/www.js",
+    "production": "cross-env NODE_ENV=production node ./bin/www.js",
+    "test-driven": "cross-env NODE_ENV=development mocha ./api/**/*.spec.js"
+  },
+  "author": "ilshookim",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.2",
+    "cross-env": "^5.2.1",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "knex": "^0.19.3",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "poll": "^1.0.1",
+    "serve-static": "^1.14.1",
+    "sqlite3": "^4.1.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3",
+    "standard": "^14.1.0",
+    "supertest": "^4.0.2"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
