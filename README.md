@@ -4,7 +4,7 @@ node.js을 활용하여 API 서버를 개발하기 위해서 이 프로젝트를
 
 # 개발 환경
 
-* Visual Studio Code, VSCode Extension: SQLite, StandardJS
+* Visual Studio Code, VSCode Extension: SQLite, StandardJS, cross-env
 ```
 Version: 1.38.0
 Commit: 3db7e09f3b61f915d03bbfa58e258d6eee843f35
@@ -57,6 +57,7 @@ supertest: ^4.0.2
     ]
 }
 ```
+* npm install -g cross-env
 
 # 실행 방법
 
